@@ -1,7 +1,8 @@
+"use client";
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const Signup = () => {
+const Page = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -94,4 +95,4 @@ const Signup = () => {
     );
 };
 
-export default Signup;
+export default Page;
